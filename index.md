@@ -4,10 +4,10 @@ layout: homepage
 keywords:
 
 # Hero section
-title: BC Apps
-description: Welcome to BC Apps, the home of apps for Microsoft Dynamics 365 Business Central
+title: Street As
+description: Welcome to Street As the app that makes managing NZ postal addresses a breeze
 buttons:
-    - content: Show me the apps
+    - content: Getting started
       icon: arrow-right
       url: 'apps'
       external_url: false
