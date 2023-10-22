@@ -28,6 +28,6 @@ page_nav:
         url: '#'
 ---
 
-# NZAddress
+# New Zealand Address
 
 It's a nice page isn't it. :-)
