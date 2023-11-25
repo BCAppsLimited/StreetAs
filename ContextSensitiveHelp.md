@@ -28,6 +28,14 @@ page_nav:
         url: '#'
 ---
 
+# Company Information
+
+This one has two lots of extra stuff on it.
+
+# Customer Card
+
+There are some extra fields on the customer card. Deal with it
+
 # New Zealand Address
 
 It's a nice page isn't it. :-)
