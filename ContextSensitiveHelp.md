@@ -22,7 +22,7 @@ micro_nav: true
 page_nav:
     home:
         content: Previous page
-        url: 'index.md'
+        url: 'index'
 ---
 
 # Company Information
@@ -39,7 +39,10 @@ The **Ship-to Country/Region Code** field has moved to appear before the first o
 
 # Countries/Regions
 
-Who knows what the link will be for this title.
+The Countries/Regions page has a new **Country Address Format** field that will control how addresses will be displayed on pages that show an address and how the addresses will be formatted on printed reports. Currently only two options are available:
+
+- Other
+- New Zealand
 
 # Customer Card
 
