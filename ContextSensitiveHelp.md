@@ -37,6 +37,10 @@ The **Country/Region Code** field has moved to appear before the first of the ad
 
 The **Ship-to Country/Region Code** field has moved to appear before the first of the ship-to address fields in the Shipping tab and all of the ship-to address fields have moved to be within a group that will either display **New Zealand Address** if the Ship-to Country/Region Code matches a country that has a Country Address Format of *New Zealand*, or will display **Address** if the Country Address Format is set to *Other*.
 
+# Countries/Regions
+
+Who knows what the link will be for this title.
+
 # Customer Card
 
 There are some extra fields on the customer card. Deal with it
