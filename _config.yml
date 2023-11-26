@@ -4,8 +4,8 @@ doks:
     color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text:
-            image: logo.png
+            text: Street As
+            image:
         nav:
             - item_name: Item 1
               item_url: '#'

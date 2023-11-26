@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Context Sensitive Help
-description: This page explains more about the page or task you were using in Business Central.
+description: Welcome brave explorer to the Street As context sensitive help page. You most likely navigated to this page by clicking the help icon in Business Central (the one that looks like a question mark) and then clicking a link under the About apps on this page section. If the page you were looking at has a special topic dedicated to that page, you will have been taken straight to that topic heading when you clicked the link. If there is no dedicated help topic for the page you were on, you will have been shown the top of this page and will be reading this text, probably wondering why you are here, and what it was you were trying to do before you arrived.
 
 # Author box
 author:
@@ -43,6 +43,8 @@ The Countries/Regions page has a new **Country Address Format** field that will 
 
 - Other
 - New Zealand
+
+With the option set to *Other* the system will behave as it did before Street As was installed. All address-formatting options will be in affect. When the option is set to *New Zealand* the standard address formatting fields such as **Address Format** and **Contact Address Format** will be ignored and the New Zealand address formatting will be used. See *New Zealand Address Format* for more details.
 
 # Customer Card
 
