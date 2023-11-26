@@ -32,6 +32,13 @@ page_nav:
 
 This one has two lots of extra stuff on it.
 
+## General
+
+The **Country/Region Code** field has moved to appear before the first of the address fields and all of the address fields have moved to be within a group that will either display "New Zealand Address" if the Country/Region Code matches a country that has a Country Address Format of "New Zealand".
+
+## Shipping
+
+
 # Customer Card
 
 There are some extra fields on the customer card. Deal with it
