@@ -28,9 +28,9 @@ grid_navigation:
     - title: EULA
       excerpt: The End User License Agreement sets out the terms and conditions for using our apps
       cta: Read the EULA
-      url: 'eula'
+      url: '/eula'
     - title: Context Sensitive Help
       excerpt: Find out about the various pages that have been modified as part of this extension and which new fields have been added.
       cta: Read the Context Sensitive Help
-      url: 'ContextSensitiveHelp'
+      url: '/ContextSensitiveHelp'
 ---
