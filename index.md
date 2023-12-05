@@ -5,32 +5,40 @@ keywords:
 
 # Hero section
 title: Street As
-description: Welcome to Street As the app that makes managing NZ postal addresses a breeze
+description: Street As is an extension for Microsoft Dynamics 365 Business Central that makes managing New Zealand postal addresses a breeze.
 buttons:
-    - content: Getting started
+    - content: Let's get started
       icon: arrow-right
-      url: 'apps'
+      url: /getting-started
       external_url: false
 
 # Author box
 author:
-    title: About Author
-    title_url: '#'
-    external_url: true
-    description: Author description
+    title: 
+    title_url: 
+    external_url: false
+    description: 
 
 # Grid navigation
 grid_navigation:
-    - title: Grid navigation
-      excerpt: Section description
+    - title: Getting Started
+      excerpt: In this section you'll find basic information about Street As and how to install it and use it properly. If you're a first time user, you should read the Getting Started section first.
       cta: Read more
-      url: '#'
+      url: /getting-started
+    - title: Clever Stuff
+      excerpt: Read this section for more advanced setup options like controlling whether a recipient should appear, or how to override default settings for specific reports.
+      cta: Get smarter
+      url: /advanced-configuration-options
+    - title: New Zealand Postal Addresses
+      excerpt: Learn about rural delivery routes, postal services, and why suburbs must be specified unless they're not needed.
+      cta: Read all about it
+      url: /new-zealand-postal-addresses
+    - title: Context Sensitive Help
+      excerpt: A list of changes to the various pages that have been modified as part of this extension and which new fields have been added. Honestly, you shouldn't read this.
+      cta: I can take it
+      url: /context-sensitive-help
     - title: EULA
-      excerpt: The End User License Agreement sets out the terms and conditions for using our apps
+      excerpt: The End User License Agreement sets out the terms and conditions for using this app. If you thought the context sensitive help was exciting, you're going to love reading the EULA.
       cta: Read the EULA
       url: '/eula'
-    - title: Context Sensitive Help
-      excerpt: Find out about the various pages that have been modified as part of this extension and which new fields have been added.
-      cta: Read the Context Sensitive Help
-      url: '/ContextSensitiveHelp'
 ---

@@ -1,3 +1,13 @@
+<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/js/bigfoot.js"></script>
+<script type="text/javascript">
+	var bigfoot = $.bigfoot(
+		{
+		actionOriginalFN: "ignore",
+		positionContent: "true"
+		}
+	);
+</script>
 <meta charset="UTF-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
