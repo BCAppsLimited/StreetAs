@@ -5,8 +5,8 @@ keywords:
 comments: false
 
 # Hero section
-title: New Zealand Address Format
-description: What up?
+title: New Zealand Postal Addresses
+description: Learn about rural delivery routes, postal services, and why suburbs must be specified unless they're not needed.
 
 # Author box
 author:
