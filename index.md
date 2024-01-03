@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Street As
-description: Street As is an extension for Microsoft Dynamics 365 Business Central that makes managing New Zealand postal addresses a breeze.
+description: Street As is an extension for Microsoft Dynamics 365 Business Central that makes managing New Zealand postal addresses easy as.
 buttons:
     - content: Let's get started
       icon: arrow-right

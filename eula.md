@@ -10,8 +10,8 @@ description: Page description
 
 # Author box
 author:
-    title: About Author
-    title_url: '#'
+    title: BC Apps Homepage
+    title_url: https://www.bcapps.co
     external_url: true
     description: Author description
 
@@ -21,11 +21,11 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Previous page
-        url: 'index.md'
+        content: Context Sensitive Help
+        url: /context-sensitive-help
     next:
-        content: Next page
-        url: '#'
+        content:
+        url:
 ---
 
 Write your markdown here ...

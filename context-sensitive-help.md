@@ -10,10 +10,10 @@ description: Welcome brave explorer to the Street As context sensitive help page
 
 # Author box
 author:
-    title: About Author
-    title_url: '#'
-    external_url: true
-    description: Author description
+    title:
+    title_url: 
+    external_url: 
+    description: 
 
 # Micro navigation
 micro_nav: true
@@ -21,13 +21,36 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Home
-        url: '/'
+        content: New Zealand Postal Addresses
+        url: /new-zealand-postal-addresses
+    next:
+        content: EULA
+        url: /eula
 ---
+
+# Address Format Callers
+
+Every time an address is formatted for printing, the object and routine that called that address formatting code will get logged in this page. This means if you haven't run any of the reports that format addresses as part of their output after installing the Street As app, this list will be blank. The list will build up over time as each of the various reports get used.
+
+Some of the reports have multiple formatted addresses on the single report and, in order to make this configuration work for any caller (of which there are many), I needed to make it refer to technical things like Object Type and Object Id. I also included the Procedure Name and Formatting For to allow different settings to be configured for each individual address that may appear on the report. It's unfortunate that this has to appear so complicated but, it can be extremely useful if you want to have slightly different layouts on some specific reports.
+
+To illustrate how the set up is used, here's an example of some values and how they relate to out-of-the-box report layouts.
+
+| Object Type | Object Id | Object Name | Procedure Name | Formatting For | Notes |
+|-|-|-|-|-|-|
+| Report | 1304 | "Standard Sales - Quote" | "Header - OnAfterGetRecord"(Trigger) | GetCompanyAddr | Your company's address in Company Information |
+| Report | 1304 | "Standard Sales - Quote" | "Header - OnAfterGetRecord"(Trigger) | SalesHeaderBillTo | The bill-to address from the Sales Quote |
+| Report | 1304 | "Standard Sales - Quote" | "Header - OnAfterGetRecord"(Trigger) | SalesHeaderShipTo | The ship-to address from the Sales Quote |
+
+For each of the options in the list you can specify settings that will override the default behaviour specified on the Street As Setup page.
+
+# Bank Account Card
+
+# Blanket Sales Order
 
 # Company Information
 
-The company address and ship-to address have changed to allow New Zealand address formats to be entered. See [New Zealand Address Format](/NewZealandAddressFormat) for more details.
+The company address and ship-to address have changed to allow New Zealand address formats to be entered. See [New Zealand Address Format](/new-zealand-postal-addresses) for more details.
 
 | Some Table Column | Second Column | Third Column |
 |-|-|
@@ -40,36 +63,6 @@ The company address and ship-to address have changed to allow New Zealand addres
 The `Country/Region Code` field has moved to appear before the first of the address fields in the General tab and all of the address fields have moved to be within a group that will either display **New Zealand Address** if the Country/Region Code matches a country that has a Country Address Format of *New Zealand*, or will display **Address** if the Country Address Format is set to *Other*. 
 
 The [Country/Region Code](## "Specifies the country or region of the address. Set this value first to ensure other postal address fields are displayed correctly for the country selected.") field has moved to appear before the first of the address fields in the General tab and all of the address fields have moved to be within a group that will either display **New Zealand Address** if the Country/Region Code matches a country that has a Country Address Format of *New Zealand*, or will display **Address** if the Country Address Format is set to *Other*. 
-
-
-<div class="example">
-    <a href="#" target="blank">Preview</a>    
-</div>
-```
-    This is some code dude.
-```
-
-This is a [hover text](## "your hover text") example.
-
-    <a href="#" image="/doks-theme/assets/images/layout/logo.png"></a>
-
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/doks-theme/assets/images/layout/logo.png)
-
-
-<div class="callout callout--info">
-    <p><strong>Lorem ipsum dolor sit amet!</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</div>
-
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
 
 ## Shipping
 
@@ -87,7 +80,33 @@ With the option set to *Other* the system will behave as it did before Street As
 # Customer Card
 
 There are some extra fields on the customer card. Deal with it
-*
+
+# Sales Credit Memo
+
+# Sales Invoice
+
+# Sales Order
+
+# Sales Quote
+
+# Sales Return Order
+
+# Street As Setup
+
+## New Zealand Country Code
+
+Specifies the Country/Region Code that is used to identify whether the New Zealand address format should be used. A New Zealand address format includes the ability to lookup a suburb code as well as removing the standard post code/city validation. To allow blank country codes to use the New Zealand address format, set the Default Country Address Format to New Zealand too.
+
+## Include Contact
+
+Specifies whether the contact should be included as the recipient in the formatted address. The options are applied to all printed address, although this setting can be overridden on individual reports using the [Address Format Callers](#address-format-callers) list page.
+
+## Default Country Address Format
+
+Specifies the country address format that will be used when the country/region code is left blank. This should be set to match the country in which your company is located.
+
 # New Zealand Address
 
 It's a nice page isn't it. :-)
+
+# Vendor Card
