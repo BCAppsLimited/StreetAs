@@ -94,6 +94,8 @@ For each of the options in the list you can specify settings that will override 
 
 # Blanket Sales Order
 
+# Blanket Purchase Order
+
 # Company Information
 
 The company address and ship-to address have changed to allow New Zealand address formats to be entered. See [New Zealand Address Format](/new-zealand-postal-addresses) for more details.
@@ -162,6 +164,10 @@ This field value is used in conjunction with the *Only When Matches Regular Expr
 <li><mark>C/O </mark>Ms Mary Goodnight</li>
 </ul>
 </div>
+
+# Location Card
+
+When the Country/Region Code relates to New Zealand the Address group caption changes to New Zealand Address and the Address, Suburb, Town or City, Postcode fields are shown in place of the regular address fields.
 
 # New Zealand Address
 
