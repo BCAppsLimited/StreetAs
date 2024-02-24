@@ -90,6 +90,10 @@ For each of the options in the list you can specify settings that will override 
 | Only When Matches RegEx | The recipient line for this address will only be included when it matches the regular expression that is defined on the Street As Setup page. |
 | Use Specified | The recipient line always be included for this address and will always show the value specified in the *Use Specified* field. |
 
+# Alternate Address Card
+
+Still to do.
+
 # Bank Account Card
 
 # Blanket Sales Order
