@@ -26,7 +26,7 @@ doks:
             - network_name: home
               profile_url: https://www.bcapps.co
             - network_name: github
-              profile_url: https://github.com/BCAppsLimited/StreetAs/issues/new/choose
+              profile_url: https://github.com/BCAppsLimited/StreetAs
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
