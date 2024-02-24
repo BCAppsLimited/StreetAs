@@ -175,6 +175,6 @@ When the Country/Region Code relates to New Zealand the Address group caption ch
 
 # New Zealand Address
 
-It's a nice country.
+It's a nice country. Changed content.
 
 # Vendor Card
