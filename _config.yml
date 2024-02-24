@@ -8,14 +8,14 @@ doks:
             image:
         nav:
             - item_name: www.bcapps.co
+              external_url:  true
               item_url: https://www.bcapps.co
-              external_url: true
             - item_name: More Apps
+              external_url: true
               item_url: https://docs.bcapps.co
-              external_url: true
             - item_name: Log Issue
-              item_url: https://github.com/BCAppsLimited/StreetAs/issues/new/choose
               external_url: true
+              item_url: https://github.com/BCAppsLimited/StreetAs/issues/new/choose
     footer:
         content:
             logo:
