@@ -9,10 +9,13 @@ doks:
         nav:
             - item_name: www.bcapps.co
               item_url: https://www.bcapps.co
+              external_url: true
             - item_name: More Apps
               item_url: https://docs.bcapps.co
+              external_url: true
             - item_name: Log Issue
               item_url: https://github.com/BCAppsLimited/StreetAs/issues/new/choose
+              external_url: true
     footer:
         content:
             logo:
