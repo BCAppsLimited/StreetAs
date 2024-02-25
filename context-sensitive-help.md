@@ -92,7 +92,19 @@ For each of the options in the list you can specify settings that will override 
 
 # Alternate Address Card
 
-Still to do.
+The Country/Region Code has moved to the start of the address fields and the fields that are shown will change to reflect the selected country.
+
+| Other Country Field Name | New Zealand Field Name | New Zealand Behaviour |
+|-|-|-|
+| Address   | Address      | Use assist edit button to set Unit Line, Building, and Delivery. |
+| Address 2 | Suburb       | Use the lookup button to select from available suburbs. |
+| City      | Town or City |  |
+| County    |  | This field is not shown for a New Zealand address. |
+| Post Code | Postcode |  |
+
+
+
+Address, Address 2, City, Post Code, County fields have been replaced with Address, Suburb, Town or City
 
 # Bank Account Card
 
