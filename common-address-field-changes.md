@@ -32,9 +32,9 @@ page_nav:
 
 There are over sixty pages in Business Central that display an address and, with a few exceptions, they follow a standard pattern. Some pages include multiple addresses (such as orders with a Sell-to, Bill-to, and Ship-to Address). Street As includes changes to every page that shows an address and tries to keep the changes to a minimum. Most pages follow the common changes described below.
 
-Wherever an address is displayed on a page, the **Country/Region Code** field has moved to the start of the address. This is necessary because it is the country field that controls which other fields should be displayed. The following table shows the field captions for countries other than New Zealand (called _Other Country Field Name_) in comparison to how the same field is re-captioned (shown as _New Zealand Field Name_). New Zealand addresses have additional behaviour on the address fields which is described in the _New Zealand Behaviour_ column.
-
 # Common Address Changes
+
+Wherever an address is displayed on a page, the **Country/Region Code** field has moved to the start of the address. This is necessary because it is the country field that controls which other fields should be displayed. The following table shows the field captions for countries other than New Zealand (called _Other Country Field Name_) in comparison to how the same field is re-captioned (shown as _New Zealand Field Name_). New Zealand addresses have additional behaviour on the address fields which is described in the _New Zealand Behaviour_ column.
 
 | Other Country Field Name | New Zealand Field Name | New Zealand Behaviour |
 |-|-|-|
