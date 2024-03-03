@@ -96,7 +96,7 @@ The address fields on the **General** tab have changed to show the [common addre
 
 # Bank Account Card
 
-The address fields on the *General* tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+The address fields on the **Communication** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
 # Blanket Sales Order
 
