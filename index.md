@@ -33,6 +33,10 @@ grid_navigation:
       excerpt: Learn about rural delivery routes, postal services, and why suburbs must be specified unless they're not needed.
       cta: Read all about it
       url: /new-zealand-postal-addresses
+    - title: Common Address Field Changes
+      excerpt: A summary of the most common changes that have been made to the numerous pages that display an address.
+      cta: Read it
+      url: /common-address-field-changes
     - title: Context Sensitive Help
       excerpt: A list of changes to the various pages that have been modified as part of this extension and which new fields have been added. Honestly, you shouldn't read this.
       cta: I can take it

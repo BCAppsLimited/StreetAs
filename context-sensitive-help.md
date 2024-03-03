@@ -24,8 +24,8 @@ page_nav:
         content: New Zealand Postal Addresses
         url: /new-zealand-postal-addresses
     next:
-        content: EULA
-        url: /eula
+        content: Common Address Field Changes
+        url: /common-address-field-changes
 ---
 
 # Address Format Callers
@@ -90,21 +90,9 @@ For each of the options in the list you can specify settings that will override 
 | Only When Matches RegEx | The recipient line for this address will only be included when it matches the regular expression that is defined on the Street As Setup page. |
 | Use Specified | The recipient line always be included for this address and will always show the value specified in the *Use Specified* field. |
 
-# Alternate Address Card
+# Alternative Address Card
 
-The Country/Region Code has moved to the start of the address fields and the fields that are shown will change to reflect the selected country.
-
-| Other Country Field Name | New Zealand Field Name | New Zealand Behaviour |
-|-|-|-|
-| Address   | Address      | Use assist edit button to set Unit Line, Building, and Delivery. |
-| Address 2 | Suburb       | Use the lookup button to select from available suburbs. |
-| City      | Town or City |  |
-| County    |  | This field is not shown for a New Zealand address. |
-| Post Code | Postcode |  |
-
-
-
-Address, Address 2, City, Post Code, County fields have been replaced with Address, Suburb, Town or City
+The address fields on the **General** tab have changed to show the [common address changes](/common-address-field-changes#common-address-changes).
 
 # Bank Account Card
 
