@@ -92,7 +92,7 @@ For each of the options in the list you can specify settings that will override 
 
 # Alternative Address Card
 
-The address fields on the **General** tab have changed to show the [common address changes](/common-address-field-changes#common-address-changes).
+The address fields on the **General** tab have changed to show the [common address changes](common-address-field-changes#common-address-changes).
 
 # Bank Account Card
 
