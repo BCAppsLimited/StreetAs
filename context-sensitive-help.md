@@ -98,9 +98,22 @@ The address fields on the **General** tab have changed to show the [common addre
 
 The address fields on the **Communication** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
-# Blanket Sales Order
 
 # Blanket Purchase Order
+
+The blanket purchase order page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+
+There is a perculiar side-effect related to the pay-to address fields. If you use the lookup against the **Name** field within the **Pay-to** group on the **Shipping and Payment** tab and select a different pay-to vendor that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the **Pay-to** to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5[^1] key to refresh the page in your browser. If however, you typed the name of the vendor rather than using the lookup, the refresh will work correctly. There are technical reasons[^2] for this limitation in the current version of BC and rather than try to find a programming work-around, I decided[^3] to leave this behaviour as it was.
+
+# Blanket Purchase Order Archive
+
+The blanket purchase order archive page has addresses for buy-from (**General** tab), ship-to (**Shipping** tab), and pay-to (**Invoicing** tab)[^4]. Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). Unlike the blanket purchase order page, the blanket purchase order archive does not require the **Show more** to show the full address, however, for some bizarre reason the county fields are not shown in the address.[^5]  
+
+# Blanket Sales Order
+
+The blanket sales order page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+
+There is a perculiar side-effect related to the bill-to address fields. If you use the lookup against the **Name** field within the bill-to group on the **Shipping and Billing** tab and select a different bill-to customer that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the bill-to to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5 key to refresh the page in your browser. If however, you typed the name of the customer rather than using the lookup, the refresh will work correctly. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
 
 # Company Information
 
@@ -180,3 +193,14 @@ When the Country/Region Code relates to New Zealand the Address group caption ch
 It's a nice country. Changed content.
 
 # Vendor Card
+
+
+[^1]: Or Cmd+R if you're using a Mac.
+
+[^2]: The lookup trigger is on the table field and not the page field. There is currently no way for a page extension to detect that a record has changed as a result of a lookup trigger that executes on the table field.
+
+[^3]: I could create a new field to replace the Name field and then call the same lookup code that exists on the table field and use this to refresh the page once the lookup has completed. I decided against this approach (even though it worked OK) because it added a change that might cause complications if changes are made to the standard application in this area. Considering the obscure scenario that will trigger this odd behaviour and the fact there is a simple standard work-around (just refresh the browser) helped me to decide to minimise the changes and live with this odd glitch.
+
+[^4]: I know right! The archive has different fields and layout compared to the unarchived document. Weird.
+
+[^5]: I've made a note to log this with Microsoft. Who know's by the time you're reading this, it may have been fixed already and you're wondering what on earth I'm talking about.
