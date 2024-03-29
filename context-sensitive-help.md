@@ -115,6 +115,10 @@ The blanket sales order page has addresses for sell-to (**General** tab), ship-t
 
 There is a perculiar side-effect related to the bill-to address fields. If you use the lookup against the **Name** field within the bill-to group on the **Shipping and Billing** tab and select a different bill-to customer that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the bill-to to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5 key to refresh the page in your browser. If however, you typed the name of the customer rather than using the lookup, the refresh will work correctly. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
 
+# Blanket Sales Order Archive
+
+The blanket sales order archive page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). Unlike the blanket sales order page, the blanket sales order archive does not require the **Show more** to show the full address, however, once again the county fields are not shown in the address for non-New Zealand addresses.  
+
 # Company Information
 
 The company address and ship-to address have changed to allow New Zealand address formats to be entered. See [New Zealand Address Format](/new-zealand-postal-addresses) for more details.
