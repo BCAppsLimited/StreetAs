@@ -127,6 +127,14 @@ The company information page has addresses for the company (**General** tab) and
 
 The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
+# Contact Card
+
+The address fields on the **Communication** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Customer Bank Account Card
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
 # Customer Card
 
 There are some extra fields on the customer card. Deal with it
