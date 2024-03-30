@@ -117,27 +117,11 @@ There is a perculiar side-effect related to the bill-to address fields. If you u
 
 # Blanket Sales Order Archive
 
-The blanket sales order archive page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). Unlike the blanket sales order page, the blanket sales order archive does not require the **Show more** to show the full address, however, once again the county fields are not shown in the address for non-New Zealand addresses.  
+The blanket sales order archive page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). Unlike the blanket sales order page, the blanket sales order archive does not require the **Show more** to show the full address, however, once again the county fields are not shown in the address for non-New Zealand addresses.  
 
 # Company Information
 
-The company address and ship-to address have changed to allow New Zealand address formats to be entered. See [New Zealand Address Format](/new-zealand-postal-addresses) for more details.
-
-| Some Table Column | Second Column | Third Column |
-|-|-|
-| This is a whole load of text that is meant to fit in one column. | Column two text. Not nearly so big. | 3 |
-| 2 | Column two text. Not nearly so big. | This is a whole load of text that is meant to fit in one column. |
-| This is a whole load of text that is meant to fit in one column. | Column two text. Not nearly so big. | 3 |
-
-## General
-
-The `Country/Region Code` field has moved to appear before the first of the address fields in the General tab and all of the address fields have moved to be within a group that will either display **New Zealand Address** if the Country/Region Code matches a country that has a Country Address Format of *New Zealand*, or will display **Address** if the Country Address Format is set to *Other*. 
-
-The [Country/Region Code](## "Specifies the country or region of the address. Set this value first to ensure other postal address fields are displayed correctly for the country selected.") field has moved to appear before the first of the address fields in the General tab and all of the address fields have moved to be within a group that will either display **New Zealand Address** if the Country/Region Code matches a country that has a Country Address Format of *New Zealand*, or will display **Address** if the Country Address Format is set to *Other*. 
-
-## Shipping
-
-The **Ship-to Country/Region Code** field has moved to appear before the first of the ship-to address fields in the Shipping tab and all of the ship-to address fields have moved to be within a group that will either display **New Zealand Address** if the Ship-to Country/Region Code matches a country that has a Country Address Format of *New Zealand*, or will display **Address** if the Country Address Format is set to *Other*.
+The company information page has addresses for the company (**General** tab) and ship-to address (**Shipping** tab). Each of the addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). There is a big on the standard version of this page (that may be fixed by the time I release this) that causes the Ship-to County to show/hide incorrectly (currently this value toggles depending on the setting of the Country/Region Code and not the Ship-to Country/Region Code).
 
 # Customer Card
 
