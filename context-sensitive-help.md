@@ -123,6 +123,10 @@ The blanket sales order archive page has addresses for sell-to (**General** tab)
 
 The company information page has addresses for the company (**General** tab) and ship-to address (**Shipping** tab). Each of the addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). There is a bug on the standard version of this page (that may be fixed by the time I release this app) that causes the Ship-to County to show/hide incorrectly (currently this value toggles depending on the setting of the Country/Region Code and not the Ship-to Country/Region Code). You'd only find this bug if your company existed in one country and had a ship-to address in another country and those two countries had different rules about whether the county field should be shown.
 
+# Contact Alt. Address Card
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
 # Customer Card
 
 There are some extra fields on the customer card. Deal with it
