@@ -167,7 +167,11 @@ The address fields on the **General** tab have changed to show the [common addre
 
 The job card page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Invoice and Shipping** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
 
-There is a perculiar side-effect related to the bill-to address fields. If you use the lookup against the **Name** field within the bill-to group on the **Shipping and Billing** tab and select a different bill-to customer that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the bill-to to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5 key to refresh the page in your browser. If however, you typed the name of the customer rather than using the lookup, the refresh will work correctly. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
+The job card supports *Default (Customer)*, *Custom Address*, and *Another Customer* as options for the **Bill-to** address and the address fields will only be shown when the option is *Custom Address* or *Another Customer*. In addition, the **Ship-to** address supports *Default (Sell-to Address)*, *Custom Address*, and *Alternate Shipping Address*. The address fields are only shown for *Custom Address* and *Alternate Shipping Address*. There is a perculiar side-effect related to the bill-to address fields. If you use the lookup against the **Name** field within the bill-to group on the **Invoice and Shipping** tab and select a different bill-to customer that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the bill-to to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5 key to refresh the page in your browser. If however, you typed the name of the customer rather than using the lookup, the refresh will work correctly. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
+
+# Location Card
+
+The address fields on the **Address & Contact** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
 # Sales Credit Memo
 
@@ -213,10 +217,6 @@ This field value is used in conjunction with the *Only When Matches Regular Expr
 <li><mark>C/O </mark>Ms Mary Goodnight</li>
 </ul>
 </div>
-
-# Location Card
-
-When the Country/Region Code relates to New Zealand the Address group caption changes to New Zealand Address and the Address, Suburb, Town or City, Postcode fields are shown in place of the regular address fields.
 
 # New Zealand Address
 
