@@ -151,6 +151,14 @@ The address fields on the **Address & Contact** tab have changed to show the [co
 
 The filed service contract page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).  
 
+# Finance Charge Memo
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Issued Finance Charge Memo
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
 
 # Sales Credit Memo
 
