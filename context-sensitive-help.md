@@ -159,6 +159,15 @@ The address fields on the **General** tab have changed to show the [common addre
 
 The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
+# Issued Reminder
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Job Card
+
+The job card page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Invoice and Shipping** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+
+There is a perculiar side-effect related to the bill-to address fields. If you use the lookup against the **Name** field within the bill-to group on the **Shipping and Billing** tab and select a different bill-to customer that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the bill-to to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5 key to refresh the page in your browser. If however, you typed the name of the customer rather than using the lookup, the refresh will work correctly. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
 
 # Sales Credit Memo
 
