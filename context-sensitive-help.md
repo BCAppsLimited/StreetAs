@@ -137,7 +137,20 @@ The address fields on the **General** tab have changed to show the [common addre
 
 # Customer Card
 
-There are some extra fields on the customer card. Deal with it
+The address fields on the **Address & Contact** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Customer Templ. Card
+
+The address fields on the **Address & Contact** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Employee Card
+
+The address fields on the **Address & Contact** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Filed Service Contract
+
+The filed service contract page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).  
+
 
 # Sales Credit Memo
 
