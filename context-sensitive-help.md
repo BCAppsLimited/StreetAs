@@ -101,17 +101,17 @@ The address fields on the **Communication** tab have changed to show the [common
 
 # Blanket Purchase Order
 
-The blanket purchase order page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+The blanket purchase order page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
 
 There is a perculiar side-effect related to the pay-to address fields. If you use the lookup against the **Name** field within the **Pay-to** group on the **Shipping and Payment** tab and select a different pay-to vendor that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the **Pay-to** to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5[^1] key to refresh the page in your browser. If however, you typed the name of the vendor rather than using the lookup, the refresh will work correctly. There are technical reasons[^2] for this limitation in the current version of BC and rather than try to find a programming work-around, I decided[^3] to leave this behaviour as it was.
 
 # Blanket Purchase Order Archive
 
-The blanket purchase order archive page has addresses for buy-from (**General** tab), ship-to (**Shipping** tab), and pay-to (**Invoicing** tab)[^4]. Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). Unlike the blanket purchase order page, the blanket purchase order archive does not require the **Show more** to show the full address, however, for some bizarre reason the county fields are not shown in the address.[^5]  
+The blanket purchase order archive page has addresses for buy-from (**General** tab), ship-to (**Shipping** tab), and pay-to (**Invoicing** tab)[^4]. Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). Unlike the blanket purchase order page, the blanket purchase order archive does not require the **Show more** to show the full address, however, for some bizarre reason the county fields are not shown in the address.[^5]  
 
 # Blanket Sales Order
 
-The blanket sales order page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+The blanket sales order page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
 
 There is a perculiar side-effect related to the bill-to address fields. If you use the lookup against the **Name** field within the bill-to group on the **Shipping and Billing** tab and select a different bill-to customer that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the bill-to to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5 key to refresh the page in your browser. If however, you typed the name of the customer rather than using the lookup, the refresh will work correctly. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
 
@@ -165,13 +165,34 @@ The address fields on the **General** tab have changed to show the [common addre
 
 # Job Card
 
-The job card page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Invoice and Shipping** tab). Each of the three sets of addresses have been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+The job card page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Invoice and Shipping** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
 
 The job card supports *Default (Customer)*, *Custom Address*, and *Another Customer* as options for the **Bill-to** address and the address fields will only be shown when the option is *Custom Address* or *Another Customer*. In addition, the **Ship-to** address supports *Default (Sell-to Address)*, *Custom Address*, and *Alternate Shipping Address*. The address fields are only shown for *Custom Address* and *Alternate Shipping Address*. There is a perculiar side-effect related to the bill-to address fields. If you use the lookup against the **Name** field within the bill-to group on the **Invoice and Shipping** tab and select a different bill-to customer that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the bill-to to group will not update to reflect the change. You can get the correct fields to display by simply pressing the F5 key to refresh the page in your browser. If however, you typed the name of the customer rather than using the lookup, the refresh will work correctly. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
 
 # Location Card
 
 The address fields on the **Address & Contact** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Order Address
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Posted Direct Transfer
+
+The posted direct transfer page has addresses for transfer-from (**Transfer-from** tab) and transfer-to (**Transfer-to** tab). Both of the addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Posted Purchase Credit Memo
+
+The posted purchase credit memo page has addresses for buy-from (**General** tab), ship-to, and pay-to (**Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
+
+# Posted Purchase Invoice
+
+The posted purchase invoice page has addresses for buy-from (**General** tab), ship-to, and pay-to (**Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
+
+# Posted Purchase Receipt
+
+The posted purchase receipt page has addresses for buy-from (**General** tab), ship-to (**Shipping** tab), and pay-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
+
 
 # Sales Credit Memo
 
