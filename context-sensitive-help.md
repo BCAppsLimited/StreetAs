@@ -201,7 +201,13 @@ The posted return receipt page has addresses for sell-to (**General** tab), ship
 
 The posted return shipment page has addresses for buy-from (**General** tab), ship-to (**Shipping** tab), and pay-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
 
-# Sales Credit Memo
+# Posted Sales Credit Memo
+
+The posted sales credit memo page has addresses for sell-to (**General** tab), ship-to, and bill-to (**Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
+
+# Posted Sales Invoice
+
+The posted sales invoice page has addresses for sell-to (**General** tab), ship-to, and bill-to (**Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
 
 # Sales Invoice
 
