@@ -209,6 +209,26 @@ The posted sales credit memo page has addresses for sell-to (**General** tab), s
 
 The posted sales invoice page has addresses for sell-to (**General** tab), ship-to, and bill-to (**Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
 
+# Posted Sales Shipment
+
+The posted sales shipment page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
+
+# Posted Service Credit Memo
+
+The posted service credit memo page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
+
+# Posted Service Invoice
+
+The posted service invoice page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).[^6] 
+
+# Posted Service Shipment
+
+The posted service shipment page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Posted Transfer Receipt
+
+The posted transfer receipt page has addresses for transfer-from (**Transfer-from** tab) and transfer-to (**Transfer-to** tab). Each of the two sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
 # Sales Invoice
 
 # Sales Order
@@ -265,6 +285,8 @@ It's a nice country. Changed content.
 
 [^3]: I could create a new field to replace the Name field and then call the same lookup code that exists on the table field and use this to refresh the page once the lookup has completed. I decided against this approach (even though it worked OK) because it added a change that might cause complications if changes are made to the standard application in this area. Considering the obscure scenario that will trigger this odd behaviour and the fact there is a simple standard work-around (just refresh the browser) helped me to decide to minimise the changes and live with this odd glitch.
 
-[^4]: I know right! The archive has different fields and layout compared to the unarchived document. Weird.
+[^4]: I know right! The archive has different fields and layout compared to the non-archived document. Weird.
 
 [^5]: I've made a note to log this with Microsoft. Who know's by the time you're reading this, it may have been fixed already and you're wondering what on earth I'm talking about.
+
+[^6]: I'm beginning to think I should have written some clever script to automate the generation of these help topic entries.
