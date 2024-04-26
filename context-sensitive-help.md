@@ -229,6 +229,28 @@ The posted service shipment page has addresses for sell-to (**General** tab), sh
 
 The posted transfer receipt page has addresses for transfer-from (**Transfer-from** tab) and transfer-to (**Transfer-to** tab). Each of the two sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
+# Posted Transfer Shipment
+
+Welcome to the wild world of transfer shipment pages, where the **Transfer-from** tab and the **Transfer-to** tab are not just tabs – they're destinations on a thrilling journey of address discovery! Imagine, if you will, a place where addresses morph and twist with the excitement of a spy changing disguises. That's right, each set of addresses has undergone a magical transformation to showcase the most [common address changes](/StreetAs/common-address-field-changes#common-address-changes), making them the chameleons of the shipping world. So, buckle up and enjoy the ride as you navigate through the ever-shifting landscape of our transfer shipment page – it's like a party where the addresses are the guests of honor, and you're the host with the most![^7]
+
+# Purchase Credit Memo
+
+The purchase credit memo page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+
+There is a perculiar side-effect related to the pay-to address fields. If you use the lookup against the **Name** field within the **Pay-to** group on the **Shipping and Payment** tab and select a different pay-to vendor that has an address that is for a different country format (i.e. you went from a NZ address to a non-NZ address or vice-versa) then the address fields for the **Pay-to** to group will not update to reflect the change. You can get the correct fields to display by simply refreshing the page in your browser. If however, you typed the name of the vendor rather than using the lookup, the refresh will work correctly. This behaviour is similar to that described for the blanket purchase order page.
+
+# Purchase Invoice
+
+The purchase invoice page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+
+Due to the way pay-to addresses are handled, if the correct address fields don't show after you have changed the address country, refresh your browser. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
+
+# Purchase Order
+
+Welcome to the whimsical world of purchase orders, where addresses hop around like a game of musical chairs! On the **General** tab, you'll find the buy-from address, probably sipping tea and minding its own business. Then there's the ship-to and pay-to addresses, lounging on the **Shipping and Payment** tab like they own the place. They've all had a makeover to show off their [common address changes](/StreetAs/common-address-field-changes#common-address-changes), but they're shy, so they'll only reveal a few details unless you coax them with the **Show more** button.
+
+Now, here's the kicker: the pay-to address fields have a quirky little quirk. If you play detective and use the lookup to find a new pay-to vendor, and they happen to live in a different country format (like swapping a kiwi address for a non-kiwi one), the pay-to fields throw a tantrum and refuse to update. It's like they're stuck in an address identity crisis! But fear not, a simple page refresh is like a magic wand that sets everything right. Unless, of course, you went old-school and typed the vendor's name manually—then the refresh works as smoothly as a penguin on ice. This odd behavior is like the distant cousin of what happens on the [Blanket Purchase Order](#blanket-purchase-order) page, equally peculiar but part of the family. So next time you're navigating the thrilling saga of purchase orders, remember: a little refresh goes a long way, and always keep an eye on those sneaky address fields!
+
 # Sales Invoice
 
 # Sales Order
@@ -236,6 +258,8 @@ The posted transfer receipt page has addresses for transfer-from (**Transfer-fro
 # Sales Quote
 
 # Sales Return Order
+
+
 
 # Street As Setup
 
@@ -290,3 +314,5 @@ It's a nice country. Changed content.
 [^5]: I've made a note to log this with Microsoft. Who know's by the time you're reading this, it may have been fixed already and you're wondering what on earth I'm talking about.
 
 [^6]: I'm beginning to think I should have written some clever script to automate the generation of these help topic entries.
+
+[^7]: This is what happens when you let generative AI write your help topics.
