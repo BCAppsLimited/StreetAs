@@ -251,6 +251,27 @@ Welcome to the whimsical world of purchase orders, where addresses hop around li
 
 Now, here's the kicker: the pay-to address fields have a quirky little quirk. If you play detective and use the lookup to find a new pay-to vendor, and they happen to live in a different country format (like swapping a kiwi address for a non-kiwi one), the pay-to fields throw a tantrum and refuse to update. It's like they're stuck in an address identity crisis! But fear not, a simple page refresh is like a magic wand that sets everything right. Unless, of course, you went old-school and typed the vendor's name manually—then the refresh works as smoothly as a penguin on ice. This odd behavior is like the distant cousin of what happens on the [Blanket Purchase Order](#blanket-purchase-order) page, equally peculiar but part of the family. So next time you're navigating the thrilling saga of purchase orders, remember: a little refresh goes a long way, and always keep an eye on those sneaky address fields!
 
+# Purchase Order Archive
+
+The purchase order archive page has addresses for buy-from (**General** tab), ship-to (**Shipping** tab), and pay-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Purchase Quote
+
+The purchase quote page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+
+Due to the way pay-to addresses are handled, if the correct address fields don't show after you have changed the address country, refresh your browser. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
+
+# Purchase Quote Archive
+
+In the shadowy corners of the purchase quote archive page, a mystery most peculiar unfolded. The **General** tab, a notorious character known for its buy-from addresses, had undergone a transformation as enigmatic as a chameleon in a disco. Meanwhile, the **Shipping** tab, a once-trustworthy informant for ship-to locations, now whispered of changes, its words as slippery as an eel in a vat of olive oil. And let's not forget the **Invoicing** tab, that keeper of pay-to secrets, which now paraded new addresses with the flamboyance of a peacock at a masquerade ball. Each tab, in a display of coordinated mischief, showcased the [common address changes](/StreetAs/common-address-field-changes#common-address-changes), leaving the users to deduce the truth behind this address alteration whodunit. The plot thickens, dear Watson, as we navigate the labyrinth of links to unveil the mastermind of this caper.
+
+# Purchase Return Order
+
+The purchase return order page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
+
+Due to the way pay-to addresses are handled, if the correct address fields don't show after you have changed the address country, refresh your browser. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
+
+
 # Sales Invoice
 
 # Sales Order
