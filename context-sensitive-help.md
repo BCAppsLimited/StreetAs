@@ -271,6 +271,9 @@ The purchase return order page has addresses for buy-from (**General** tab), shi
 
 Due to the way pay-to addresses are handled, if the correct address fields don't show after you have changed the address country, refresh your browser. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
 
+# Purchase Return Order Archive
+
+The purchase return order archive page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
 
 # Sales Invoice
 
