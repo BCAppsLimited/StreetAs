@@ -275,6 +275,22 @@ Due to the way pay-to addresses are handled, if the correct address fields don't
 
 The purchase return order archive page has addresses for buy-from (**General** tab), ship-to, and pay-to (both on the **Shipping and Payment** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected. 
 
+# Reminder
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Remit Address
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Resource Card
+
+The address fields on the **Personal Data** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Responsibility Center Card
+
+The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
 # Sales Invoice
 
 # Sales Order
