@@ -291,14 +291,41 @@ The address fields on the **Personal Data** tab have changed to show the [common
 
 The address fields on the **General** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
+# Sales Credit Memo
+
+The sales credit memo page has addresses for sell-to (**General** tab) and bill-to (**Billing** tab). Each of the addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
+
 # Sales Invoice
+
+The sales invoice page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected.
+
+Due to the way bill-to addresses are handled, if the correct address fields don't show after you have changed the address country, refresh your browser. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
 
 # Sales Order
 
+The sales order page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected.
+
+Due to the way bill-to addresses are handled, if the correct address fields don't show after you have changed the address country, refresh your browser. The reasons for this are explained more in the [Blanket Purchase Order](#blanket-purchase-order) description.
+
+# Sales Order Archive
+
+The sales order archive page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). Unlike the sales order page, the sales order archive does not require the **Show more** to show the full address.  
+
 # Sales Quote
+
+The sales quote page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected.
+
+# Sales Quote Archive
+
+The sales quote archive page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). 
 
 # Sales Return Order
 
+The sales return order page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes) and also only show a limited set of address fields unless the **Show more** option is selected.
+
+# Sales Return Order Archive
+
+The sales return order archive page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
 
 # Street As Setup
