@@ -263,7 +263,7 @@ Due to the way pay-to addresses are handled, if the correct address fields don't
 
 # Purchase Quote Archive
 
-In the shadowy corners of the purchase quote archive page, a mystery most peculiar unfolded. The **General** tab, a notorious character known for its buy-from addresses, had undergone a transformation as enigmatic as a chameleon in a disco. Meanwhile, the **Shipping** tab, a once-trustworthy informant for ship-to locations, now whispered of changes, its words as slippery as an eel in a vat of olive oil. And let's not forget the **Invoicing** tab, that keeper of pay-to secrets, which now paraded new addresses with the flamboyance of a peacock at a masquerade ball. Each tab, in a display of coordinated mischief, showcased the [common address changes](/StreetAs/common-address-field-changes#common-address-changes), leaving the users to deduce the truth behind this address alteration whodunit. The plot thickens, dear Watson, as we navigate the labyrinth of links to unveil the mastermind of this caper.
+In the shadowy corners of the purchase quote archive page, a mystery most peculiar unfolded. The **General** tab, a notorious character known for its buy-from addresses, had undergone a transformation as enigmatic as a chameleon at a grand fireworks display. Meanwhile, the **Shipping** tab, a once-trustworthy informant for ship-to locations, now whispered of changes, its words as slippery as an eel in a vat of jelly. And let's not forget the **Invoicing** tab, that keeper of pay-to secrets, which now paraded new addresses with the flamboyance of a peacock at a masquerade ball. Each tab, in a display of coordinated mischief, showcased the [common address changes](/StreetAs/common-address-field-changes#common-address-changes), leaving the users to deduce the truth behind this address alteration whodunit. The plot thickens, dear Watson, as we navigate the labyrinth of links to unveil the mastermind of this caper.
 
 # Purchase Return Order
 
@@ -326,6 +326,30 @@ The sales return order page has addresses for sell-to (**General** tab), ship-to
 # Sales Return Order Archive
 
 The sales return order archive page has addresses for sell-to (**General** tab), ship-to, and bill-to (both on the **Shipping and Billing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Service Contract
+
+The service contract page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). This page is a little unusual in that the addresses cannot be changed on the page but are shown as lookup fields from the related customer or in the case of the ship-to address the customer and the ship-to code.
+
+# Service Contract Quote
+
+The service contract quote page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes). This page is a little unusual in that the addresses cannot be changed on the page but are shown as lookup fields from the related customer or in the case of the ship-to address the customer and the ship-to code.
+
+# Service Credit Memo
+
+The service credit memo page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Service Invoice
+
+The service invoice page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Service Item Card
+
+The service item card page has addresses for sell-to (**Customer** tab), and ship-to (**Shipping** tab). Each of the addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
+
+# Service Order
+
+The service order page has addresses for sell-to (**General** tab), ship-to (**Shipping** tab), and bill-to (**Invoicing** tab). Each of the three sets of addresses has been changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
 
 # Street As Setup
