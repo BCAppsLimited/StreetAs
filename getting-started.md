@@ -30,42 +30,49 @@ page_nav:
 
 # What is Street As?
 
-It's easiest to describe Street As in terms of what it does. Here's a list of features.
+Street As changes the layout of all[^1] pages that include address fields so they are better suited for New Zealand Addresses. Once activated, all address pages will show:
 
-- Allow a country code in Street As Setup to be configured as having a _Country Address Format_ of "New Zealand".[^1]
-- Allow the _Default Country Address Format_ to be specified for your company so the system will treat a blank country code as being in this format.
-- Change the various screens that allow addresses to be entered to show the fields needed for a New Zealand postal address.
-- Add a lookup to a list of Suburbs to the Suburb field (aka _Address 2_).
-- Validate a partial Suburb match and fill in the Town or City and Postcode fields.
-- Allow the delivery line of an address (aka _Address_) to be split into three lines for Unit Line, Building, and Delivery when printed.
-- Modify all reports that use the standard address formatting routines to format New Zealand addresses correctly.
-- Allow contacts to be included in a line at the top of the address based on a starting text of Attn., C/O, C/-, or any other secret incantation you care to invoke.
-- Allow inclusion of contacts in a printed address to be overridden on a report-by-report basis.
+- **Address**
+- **Suburb**
+- **Town or City**
+- **Postcode**
 
-# Why is it free?
+The **Country/Region** code that controls how an address is displayed has also moved so that it appears before the first address field. You can configure the system so that leaving the **Country/Region** field empty will treat the address like it's a New Zealand address.
 
-After typing that list of features I'm beginning to wonder that myself. It seems like Street As is a pretty neat app and should be worth a few bucks, right? There are costs associated with publishing an app and keeping it updated in AppSource,[^3] but what if no-one uses this app because they don't think it's worth spending money on? I hate the idea of putting so much effort into building an app and no-one using it simply because it costs a few dollars. Street As is intended to make using Business Central a little bit less annoying and doesn't promise great gains in productivity or a huge return on investment, so it's free (as in beer). Enjoy!
+There are some more advanced features that are covered in the [Clever Stuff](/StreetAs/advanced-configuration-options) section, but for now, let's get you going with the basic setup.
 
-I've made Street As include a screen showing all of the apps available from BC Apps and some of those apps will not be free. Search for "BC Apps Management" (after you've installed the app of course) and take a look. Maybe you'll find something that you like the look of (and would like to spend money on). I'll also send you a notification if a new app gets added (or there's an update to an app that might interest you). Finally, if you do use Street As and you like it, please leave a review on AppSource.
+# Installation and Configuration
 
-# Installation
+Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-US/marketplace/apps?product=dynamics-365-business-central). 
 
-Street As is available for free through [Microsoft's AppSource](https://appsource.microsoft.com/en-US/marketplace/apps?product=dynamics-365-business-central). If you've already installed the app, jump ahead to the [Configuring](#configuring) section. You can [install the app from AppSource](##appsource) or from within [Business Central](##business-central).
+After the app is installed, search for Street As Setup[^2] and launch the setup page. There's not a lot to enter here, in fact you can get up and running by setting only two fields.
 
-## AppSource
+## Street As Setup
 
-Open the [Street As](#) product page on AppSource and click on the *Get it now* button. You will be redirected to your Business Central instance where you will
+### Step 1. Set the New Zealand Country Code
 
-## Business Central
+That's right, your first task is to see if you can correctly identify the country code that is used to represent New Zealand. If your system has been configured well it will most likely use the ISO 2- or 3-character codes of NZ or NZL. Use the lookup to select the correct value if you're unsure. Once the **New Zealand Country Code** field contains a value, you can continue to step 2.
 
-Sign in to Business Central and search[^2] for "extension marketplace".  
+### Step 2. Activate the app
 
-# Configuring
+Click on the **Active** toggle button so activate the app. Once the app is active, the layout of pages will change for any address that has the country/region code set to the value you selected in the **New Zealand Country Code** field.
 
-Todo: Some configuration instructions
+### Step 3. Set the Default Country Address Format
+
+This step is optional but extremely useful. If you want an address that does not have a **Country/Region** code specified (for example when creating a new customer), you can use this field to tell the system to treat addresses with no country specified as New Zealand addresses. There are only two options for this setting: _Other_, and _New Zealand_. I recommend you set this field to _New Zealand_.
+
+### Advanced options
+
+There are more fields to configure on the **Recipient** tab but these are optional and might take a little more consideration to use them properly. Essentially the settings here will allow you to determine how a contact name should be included in the printed address when documents are generated. We'll cover this in detail in the [Clever Stuff](/StreetAs/advanced-configuration-options) section and you can also find out about all of the fields and actions on this page in the [Street As Setup Page Help](/StreetAs/context-sensitive-help/#street-as-setup).
+
+# Licensing
+
+In order to use the Street As app, users must have a license assigned to their user account. If a user does not have a license assigned, the behaviour of the system will be the same as if the app was not active. This means the user will see the standard address fields on pages that contain addresses and documents that use addresses will be formatted according to the standard configuration options.
 
 ---
 
-[^1]: That's right, your first configuration task is going to see if you can correctly identify New Zealand in a list of countries.
-[^2]: Use the Alt+Q key combination or click on the magnifying glass icon in the top bar to launch the "Tell me what you want to do" search box. The search feature is a little bit smart and you can usually get away with just typing the start of the words you are looking for.
-[^3]: The biggest cost is the code-signing certificate. Then there's the domain name, the Microsoft 365 subscription, the template used to make the online help. Not to mention the time invested in building the app and keeping it up to date with the latest versions of Business Central. I feel a sales pitch coming on...  
+[^1]: There are currently 66 pages with updated address fields. If you find a page that you would like to be included, please log an issue by clicking the LOG ISSUE link at the top right of this page (a github user account is required to log an issue).
+[^2]: Use the Alt+Q key combination or click on the magnifying glass icon in the top bar to launch the "Tell me what you want to do" search box. The search feature is a little bit smart and you can usually get away with just typing the start of the words you are looking for. I usually just type "Street Setup" to quickly get to the setup screen.
+[^3]: That's right, your first configuration task is going to see if you can correctly identify New Zealand in a list of countries.
+[^4]: Use the Alt+Q key combination or click on the magnifying glass icon in the top bar to launch the "Tell me what you want to do" search box. The search feature is a little bit smart and you can usually get away with just typing the start of the words you are looking for.
+[^5]: The biggest cost is the code-signing certificate. Then there's the domain name, the Microsoft 365 subscription, the template used to make the online help. Not to mention the time invested in building the app and keeping it up to date with the latest versions of Business Central. I feel a sales pitch coming on...  

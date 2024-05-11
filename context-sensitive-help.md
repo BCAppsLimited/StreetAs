@@ -410,7 +410,7 @@ The address fields on the **Address & Contact** tab have changed to show the [co
 
 The address fields on the **Address & Contact** tab have changed to show the [common address changes](/StreetAs/common-address-field-changes#common-address-changes).
 
-<hr/>
+---
 
 [^1]: Or Cmd+R if you're using a Mac.
 
