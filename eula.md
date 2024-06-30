@@ -10,10 +10,10 @@ description: Page description
 
 # Author box
 author:
-    title: BC Apps Homepage
-    title_url: https://www.bcapps.co
-    external_url: true
-    description: Author description
+    title:
+    title_url:
+    external_url:
+    description:
 
 # Micro navigation
 micro_nav: true
@@ -24,8 +24,10 @@ page_nav:
         content: Context Sensitive Help
         url: /context-sensitive-help
     next:
-        content:
-        url:
+        content: Privacy Statement
+        url: /privacy-statement
 ---
 
-Write your markdown here ...
+# Street As End User License Agreement (EULA)
+
+
