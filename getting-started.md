@@ -43,11 +43,28 @@ There are some more advanced features that are covered in the [Clever Stuff](/St
 
 # Installation and Configuration
 
-Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-US/marketplace/apps?product=dynamics-365-business-central). 
+## Install
 
-After the app is installed, search for Street As Setup[^2] and launch the setup page. There's not a lot to enter here, in fact you can get up and running by setting only two fields.
+Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-US/marketplace/apps?product=dynamics-365-business-central).
+
+I'm going to assume you know how to install an app from AppSource, but rather than document that here, simply search using your web search engine and you'll find plenty of instructions and videos. When you find the app, you'll want to select the Free Trial option and you'll be able to select the plan. There is currently only a standard plan for Street As, so select that and whether you want to be billed monthly or annunally after the free trial has ended. Select the number of users you wish to license. You'll be able to purchase more user licenses at a later date and you'll need to assign the licenses to your users.
+
+## Assign Licenses
+
+Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) and assign your Street As Standard licenses to your users the same as you would assign any other license to your users.
+
+Note that external users such as delegated admin agents, help desk agents, or admin partners will be assigned a free license automatically.
+
+## Grant Permissions
+
+Now that the licenses have been assigned to your users, you must assign a permission set so that the users have access to the objects they need to use. There are only two permission sets in Street As:
+
+- **BC_STR_USR** - A regular user of Street As. This user cannot change the settings on the Street As Setup table.
+- **BC_STR_ADM** - An administrator of Street As. This user has all the rights of a regular user but also has write permissions to the Street As Setup table.
 
 ## Street As Setup
+
+After the app is installed, the licenses have been allocated and the permissions have been granted, from within Business Central search for Street As Setup[^2] and launch the setup page. There's not a lot to enter here, in fact you can get up and running by setting only two fields.
 
 ### Step 1. Set the New Zealand Country Code
 
@@ -55,19 +72,19 @@ That's right, your first task is to see if you can correctly identify the countr
 
 ### Step 2. Activate the app
 
-Click on the **Active** toggle button so activate the app. Once the app is active, the layout of pages will change for any address that has the country/region code set to the value you selected in the **New Zealand Country Code** field.
+Click on the **Active** toggle button to activate the app. Once the app is active, the layout of pages will change for any address that has the country/region code set to the value you selected in the **New Zealand Country Code** field. In order to see the address changes a user must have a license assigned and also have an appropriate permission set granted.
 
 ### Step 3. Set the Default Country Address Format
 
 This step is optional but extremely useful. If you want an address that does not have a **Country/Region** code specified (for example when creating a new customer), you can use this field to tell the system to treat addresses with no country specified as New Zealand addresses. There are only two options for this setting: _Other_, and _New Zealand_. I recommend you set this field to _New Zealand_.
 
+### Step 4. Ignore the Keep Single Delivery Line setting
+
+One of the features of Street As is the ability to use the delivery line of the address as a combination of Unit Line, Building, and Delivery. The three parts when separated by commas will be split during printing of addresses into three separate lines. If you wish to disable this feature and have the address line print exactly as it was entered (with the commas), you can tick the **Keep Single Delivery Line** field. It's possible to override this setting on a report-by-report basis, but we'll cover that in the [Clever Stuff](/StreetAs/advanced-configuration-options) section later on.
+
 ### Advanced options
 
 There are more fields to configure on the **Recipient** tab but these are optional and might take a little more consideration to use them properly. Essentially the settings here will allow you to determine how a contact name should be included in the printed address when documents are generated. We'll cover this in detail in the [Clever Stuff](/StreetAs/advanced-configuration-options) section and you can also find out about all of the fields and actions on this page in the [Street As Setup Page Help](/StreetAs/context-sensitive-help/#street-as-setup).
-
-# Licensing
-
-In order to use the Street As app, users must have a license assigned to their user account. If a user does not have a license assigned, the behaviour of the system will be the same as if the app was not active. This means the user will see the standard address fields on pages that contain addresses and documents that use addresses will be formatted according to the standard configuration options.
 
 ---
 
