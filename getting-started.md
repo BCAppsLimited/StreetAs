@@ -39,7 +39,7 @@ Street As changes the layout of all[^1] pages that include address fields so the
 
 The **Country/Region** code that controls how an address is displayed has also moved so that it appears before the first address field. You can configure the system so that leaving the **Country/Region** field empty will treat the address like it's a New Zealand address.
 
-There are some more advanced features that are covered in the [Clever Stuff](/StreetAs/advanced-configuration-options) section, but for now, let's get you going with the basic setup.
+There are some more advanced features that are covered in the [Clever Stuff](/StreetAs/advanced-configuration-options) section, but for now, let's get you going with the basic stuff.
 
 # Installation and Configuration
 
@@ -47,13 +47,13 @@ There are some more advanced features that are covered in the [Clever Stuff](/St
 
 Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-US/marketplace/apps?product=dynamics-365-business-central).
 
-I'm going to assume you know how to install an app from AppSource, but rather than document that here, simply search using your web search engine and you'll find plenty of instructions and videos. When you find the app, you'll want to select the Free Trial option and you'll be able to select the plan. There is currently only a standard plan for Street As, so select that and whether you want to be billed monthly or annunally after the free trial has ended. Select the number of users you wish to license. You'll be able to purchase more user licenses at a later date and you'll need to assign the licenses to your users.
+I'm going to assume you know how to install an app from AppSource, so rather than document that here, simply search using your web search engine and you'll find plenty of instructions and videos. When you find the app, you'll want to select the Free Trial option and you'll be able to select the plan. There is currently only a standard plan for Street As, so select that and whether you want to be billed monthly or annunally after the free trial has ended. Select the number of users you wish to license. You'll be able to purchase more user licenses at a later date and you'll need to assign the licenses to your users.
 
 ## Assign Licenses
 
 Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) and assign your Street As Standard licenses to your users the same as you would assign any other license to your users.
 
-Note that external users such as delegated admin agents, help desk agents, or admin partners will be assigned a free license automatically.
+Note that external users such as delegated admin agents, help desk agents, and admin partners will be assigned a free license automatically.
 
 ## Grant Permissions
 
