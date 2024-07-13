@@ -62,6 +62,8 @@ Now that the licenses have been assigned to your users, you must assign a permis
 - **BC_STR_USR** - A regular user of Street As. This user cannot change the settings on the Street As Setup table.
 - **BC_STR_ADM** - An administrator of Street As. This user has all the rights of a regular user but also has write permissions to the Street As Setup table.
 
+A user that has been assigned the **SUPER** permission set will also be able to access the **Street As Setup** page to change the configuration of the app, however if a user does not have a license assigned, they will not be able to use the app, no matter which permission sets they have.
+
 ## Street As Setup
 
 After the app is installed, the licenses have been allocated and the permissions have been granted, from within Business Central search for Street As Setup[^2] and launch the setup page. There's not a lot to enter here, in fact you can get up and running by setting only two fields.
