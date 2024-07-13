@@ -365,6 +365,18 @@ The address fields on the **General** tab have changed to show the [common addre
 
 Specifies the Country/Region Code that is used to identify whether the New Zealand address format should be used. A New Zealand address format includes the ability to lookup a suburb code as well as removing the standard post code/city validation. To allow blank country codes to use the New Zealand address format, set the *Default Country Address Format* to New Zealand.
 
+## Active
+
+A tick box that indicates the Street As functionality is active. In order to activate the extension, you must have specified the **New Zealand Country Code** first. If the **Active** field is not on, the appearance of address fields on all other pages will use the standard field captions and visibility. The country code will still be at the start of each address regardless of whether this extension is active or not.
+
+## Default Country Address Format
+
+Specifies the country address format that will be used when the country/region code is left blank. This should be set to match the country in which your company is located. The options available are *Other* and *New Zealand*.
+
+## Keep Single Delivery Line
+
+An address line for a New Zealand address can comprise a **Unit Line**, **Building**, and **Delivery**. These values are all entered in to the single Address field and are separated by a comma. When the address is formatted for printing, the default behaviour is to split the three fields into separate lines. If you would like to keep **Address** field as it was entered with commas and all, tick this box to set a new default behaviour. It is possible to override this setting for individual reports using the [Address Format Callers](#address-format-callers) list page.
+
 ## Include Contact as Recipient
 
 Specifies whether the contact should be included as the recipient in the formatted address. The options are applied to all printed address, although this setting can be overridden on individual reports using the [Address Format Callers](#address-format-callers) list page. The option for *Include Contact* has the following possible values and meanings:
@@ -375,9 +387,6 @@ Specifies whether the contact should be included as the recipient in the formatt
 | Always | The recipient line for New Zealand addresses will always be included. |
 | Only When Matches Regular Expression | The recipient line for New Zealand addresses will only be included when it matches the regular expression that is defined in the *Recipient Regular Expression* field. |
 
-## Default Country Address Format
-
-Specifies the country address format that will be used when the country/region code is left blank. This should be set to match the country in which your company is located.
 
 ## Recipient Regular Expression
 

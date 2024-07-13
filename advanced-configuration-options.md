@@ -28,44 +28,39 @@ page_nav:
         url: /new-zealand-postal-addresses
 ---
 
-# What is Street As?
+# Street As Setup (Clever Stuff)
 
-It's easiest to describe Street As in terms of what it does. Here's a list of features.
+Some of the fields on the Street As Setup are a little more advanced than picking the country code for New Zealand. Here's an explanation of those fields and what they do.
 
-- Allow a country (in Countries/Regions[^1] list) to be configured as having a _Country Address Format_ of "New Zealand".
-- Change the various screens that allow addresses to be entered to show the fields needed for a New Zealand postal address.
-- Add a lookup to a list of Suburbs to the Suburb field (aka _Address 2_).
-- Validate a partial Suburb match and fill in the Town or City and Postcode fields.
-- Allow the delivery line of an address (aka _Address_) to be split into three lines for Unit Line, Building, and Delivery when printed.
-- Modify all reports that use the standard address formatting routines to format New Zealand addresses correctly.
-- Allow contacts to be included in a line at the top of the address based on a starting text of Attn., C/O, C/-, or any other secret incantation you care to invoke.
-- Allow inclusion of contacts in a printed address to be overridden on a report-by-report basis.
-- Allow the _Default Country Address Format_ to be specified for your company so the system will treat a blank country code as being in this format.
+![alt text](/screenshots/StreetAsSetup.png)
 
-# Why is it free?
 
-After typing that list of features I'm beginning to wonder that myself. It seems like Street As is a pretty neat app and should be worth a few bucks, right? There are costs associated with publishing an app and keeping it updated in AppSource[^3]. But what if no-one uses this app because they don't think it's worth spending money on? I hate the idea of putting so much effort into building an app and no-one using it simply because it costs a few dollars. Getting businesses to part with their money is sometimes hard. Street As is intended to make using Business Central a little bit less annoying and doesn't promise great gains in productivity or a huge return on investment. So it's free (as in beer). Enjoy!
+## Keep Single Delivery Line
 
-I've made Street As include a screen showing all of the apps available from BC Apps and some of those apps will not be free. Search for "BC Apps Management" (after you've installed the app of course) and take a look. Maybe you'll find something that you would find useful (and would like to spend money on). I'll also send you a notification if a new app gets added (or there's an update to an app that might interest you). Finally, if you do use Street As and you like it, leave a review on AppSource.
+An address line for a New Zealand address can comprise a **Unit Line**, **Building**, and **Delivery**. These values are all entered in to the single Address field and are separated by a comma. When the address is formatted for printing, the default behaviour is to split the three fields into separate lines. If you would like to keep **Address** field as it was entered with commas and all, tick this box to set a new default behaviour. It is possible to override this setting for individual reports using the [Address Format Callers](#address-format-callers) list page.
 
-# Installation
+## Include Contact as Recipient
 
-Street As is available for free through [Microsoft's AppSource](https://appsource.microsoft.com/en-US/marketplace/apps?product=dynamics-365-business-central). If you've already installed the app, jump ahead to the [Configuring](#configuring) section. You can [install the app from AppSource](##appsource) or from within [Business Central](##business-central).
+Specifies whether the contact should be included as the recipient in the formatted address. The options are applied to all printed address, although this setting can be overridden on individual reports using the [Address Format Callers](#address-format-callers) list page. The option for *Include Contact* has the following possible values and meanings:
 
-## AppSource
+| Value | Meaning |
+| - | - |
+| Never | The recipient line for New Zealand addresses will never be included. |
+| Always | The recipient line for New Zealand addresses will always be included. |
+| Only When Matches Regular Expression | The recipient line for New Zealand addresses will only be included when it matches the regular expression that is defined in the *Recipient Regular Expression* field. |
 
-Open the [Street As](#) product page on AppSource and click on the *Get it now* button. You will be redirected to your Business Central instance where you will
 
-## Business Central
+## Recipient Regular Expression
 
-Sign in to Business Central and search[^2] for "extension marketplace".  
+This field value is used in conjunction with the *Only When Matches Regular Expression* setting on the *Include Contact as Recipient* field. Regular expressions are an incredibly powerful way to specify a formula for matching to some text. The default setting for this field is `^Attn |^C\/- |^C\/O` and you can restore this default value by using the action on this page and selecting *Actions > Set Default Recipient Regular Expression*. For more information on using regular expressions and some examples of how this default regular expression works, take a look at this [Regular Expressions 101 Saved Example](https://regex101.com/r/VkBQx8/1).
 
-# Configuring
+<div class="callout callout--info">
+    <p><strong>Regular Expressions</strong>The previous link will take you to the regex101.com site with a saved example that shows how the default regular expression will match against the following list of candidates.</p>
 
-Todo: Some configuration instructions
-
----
-
-[^1]: You may wonder why we did it this way. After all, there is only one _New Zealand_ so why make you pick which one it is? If we add another country format to Street As (no promises), this approach makes it easier.
-[^2]: Use the Alt+Q key combination or click on the magnifying glass icon in the top bar to launch the "Tell me what you want to do" search box. The search feature is a little bit smart and you can usually get away with just typing the start of the words you are looking for.
-[^3]: The biggest cost is the code-signing certificate. Then there's the domain name, the Microsoft 365 subscription, the template used to make the online help. Not to mention the time invested in building the app and keeping it up to date with the latest versions of Business Central. I feel a sales pitch coming on...  
+<ul>
+<li>Bond, James Bond</li>
+<li><mark>Attn </mark>Miss Moneypenny</li>
+<li><mark>C/- </mark>Mr Bill Tanner</li>
+<li><mark>C/O </mark>Ms Mary Goodnight</li>
+</ul>
+</div>
