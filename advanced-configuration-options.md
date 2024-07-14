@@ -158,3 +158,5 @@ The option for **Keep Single Delivery Line** has the following possible values a
 | Default Setup | Use whatever settings existing on the Street As Setup to control whether the delivery line is kept or split. |
 | Split | The delivery line for this address will always be split. |
 | Keep | The delivery line for this address will always be printed as it was entered, commas and all. |
+
+That's everything we have in the Street As app. If you want to learn more about 
