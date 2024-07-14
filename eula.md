@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: End User License Agreement
-description: Page description
+description: By installing or using the Software, you agree to be bound by the terms of this EULA.
 
 # Author box
 author:
