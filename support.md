@@ -24,8 +24,8 @@ page_nav:
         content: Privacy Statement
         url: /privacy-statement
     next:
-        content: Support
-        url: /support
+        content: 
+        url: 
 ---
 
 # Get Help
@@ -38,4 +38,4 @@ If you'd like to raise an issue with this documentation, suggest an improvement 
 
 ---
 
-[^1] Note that you'll need a github account in order to log an issue.
+[^1]: Note that you'll need a github account in order to log an issue.
