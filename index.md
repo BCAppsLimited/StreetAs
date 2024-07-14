@@ -45,4 +45,12 @@ grid_navigation:
       excerpt: The End User License Agreement sets out the terms and conditions for using this app. If you thought the context sensitive help was exciting, you're going to love reading the EULA.
       cta: Read the EULA
       url: '/eula'
+    - title: Privacy Statement
+      excerpt: This page informs you of our policies regarding the collection, use, and disclosure of Personal Information we receive from users of the Street As App.
+      cta: Read the privacy statement
+      url: '/privacy-statement'
+    - title: Get Help
+      excerpt: In the unfortunate event of an error whilst using our app, you can contact us for help.
+      cta: Find out how
+      url: '/support'
 ---
