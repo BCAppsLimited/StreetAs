@@ -43,7 +43,7 @@ You can use the assist edit (shown as an ellipses) beside the **Address** field 
 
 ![Image showing an address field and how the three parts split into three lines.](/screenshots/StreetAsAddressSplit.png)
 
-If you would like to keep **Address** field as it was entered with commas and all, tick this box to set a new default behaviour. It is possible to override this setting for individual reports using the [Address Format Callers](#address-format-callers) list page.
+If you would like to keep the **Address** field as it was entered with commas and all, tick this box to set a new default behaviour. It is possible to override this setting for individual reports using the [Address Format Callers](#address-format-callers) list page.
 
 Depending on how this setting is set, the address will be formatted accordingly when printed. The following two images illustrate how the printed address will be shown depending on the setting of **Keep Single Delivery Line**.
 
@@ -159,4 +159,4 @@ The option for **Keep Single Delivery Line** has the following possible values a
 | Split | The delivery line for this address will always be split. |
 | Keep | The delivery line for this address will always be printed as it was entered, commas and all. |
 
-That's everything we have in the Street As app. If you want to learn more about 
+That's everything we have in the Street As app. If you want to learn more about New Zealand Addresses, check out the [New Zealand Postal Addresses](/new-zealand-postal-addresses.md) topic.
