@@ -30,7 +30,7 @@ page_nav:
 
 # What is Street As?
 
-Street As changes the layout of all[^1] pages that include address fields so they are better suited for New Zealand Addresses. Once activated, all address pages will show:
+Street As changes the layout of all[^1] pages that include address fields so they are better suited for New Zealand addresses. Once activated, all address pages will show:
 
 - **Address**
 - **Suburb**
@@ -70,7 +70,7 @@ After the app is installed, the licenses have been allocated and the permissions
 
 ### Step 1. Set the New Zealand Country Code
 
-That's right, your first task is to see if you can correctly identify the country code that is used to represent New Zealand. If your system has been configured well it will most likely use the ISO 2- or 3-character codes of NZ or NZL. Use the lookup to select the correct value if you're unsure. Once the **New Zealand Country Code** field contains a value, you can continue to step 2.
+That's right! Your first task is to see if you can correctly identify the country code that is used to represent New Zealand. If your system has been configured well it will most likely use the ISO 2- or 3-character codes of NZ or NZL. Use the lookup to select the correct value if you're unsure. Once the **New Zealand Country Code** field contains a value, you can continue to step 2.
 
 ### Step 2. Activate the app
 
