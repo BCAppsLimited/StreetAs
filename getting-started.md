@@ -45,7 +45,7 @@ There are some more advanced features that are covered in the [Clever Stuff](/St
 
 ## Install
 
-Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-US/marketplace/apps?product=dynamics-365-business-central).
+Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-NZ/product/DynamicsBC/PUBID.bcappslimited1693858041247%7CAID.street-as%7CPAPPID.0a89d807-b47c-487d-97ec-a1c63d794cca).
 
 I'm going to assume you know how to install an app from AppSource, so rather than document that here, simply search using your web search engine and you'll find plenty of instructions and videos. When you find the app, you'll want to select the Free Trial option and you'll be able to select the plan. There is currently only a standard plan for Street As, so select that and whether you want to be billed monthly or annually after the free trial has ended. Select the number of users you wish to license. You'll be able to purchase more user licenses at a later date and you'll need to assign the licenses to your users.
 

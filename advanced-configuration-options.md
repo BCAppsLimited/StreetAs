@@ -159,4 +159,14 @@ The option for **Keep Single Delivery Line** has the following possible values a
 | Split | The delivery line for this address will always be split. |
 | Keep | The delivery line for this address will always be printed as it was entered, commas and all. |
 
-That's everything we have in the Street As app. If you want to learn more about New Zealand Addresses, check out the [New Zealand Postal Addresses](/new-zealand-postal-addresses.md) topic.
+# Setup Suburbs Data
+
+We've prepared a demonstration data file with New Zealand suburbs and their respective town or city and postcodes. Use this link to [download the NZ Suburbs data file](https://www.bcapps.co/edit/download_file.html?file_id=0&site_id=235887) from our Web site. Once the download has completed, save the file to a local directory (such as your Downloads folder). The file will be named **Street As NZ Suburbs.json**.
+
+With the file downloaded, go to the **Street As Setup** page and select the **Import Suburbs** action.
+
+![Image showing the download suburbs option on the Street As Setup page.](/screenshots/StreetAsDownloadSuburbs.png)
+
+Select the file you downloaded in the previous step. The system will ask if you want to delete existing NZ Suburbs before import. As this is the first time you're running this option, it doesn't matter whether you select Yes or No. If you have manually entered suburbs into the setup table and want to keep the manual entries you have made, you should select No. The data will import quickly. You can run the New Zealand Suburbs page to check the imported data.
+
+That's everything we have in the Street As app. If you want to learn more about New Zealand Addresses, check out the [New Zealand Postal Addresses](/new-zealand-postal-addresses.md) topic. If you enjoy using Street As, please leave a review on [the Street As product page](https://appsource.microsoft.com/en-NZ/product/DynamicsBC/PUBID.bcappslimited1693858041247%7CAID.street-as%7CPAPPID.0a89d807-b47c-487d-97ec-a1c63d794cca) on AppSource.
