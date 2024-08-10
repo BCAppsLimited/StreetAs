@@ -141,7 +141,7 @@ I have removed those columns from the sample to conserve space.
 </table>
 </div>
 
-For each of the options in the list you can specify settings that will override the default behaviour specified on the [Street As Setup](#street-as-setup) page. The option for **Include Contact as Recipient** has the following possible values and meanings:
+For each of the options in the list you can specify settings that will override the default behaviour specified on the **Street As Setup** page. The option for **Include Contact as Recipient** has the following possible values and meanings:
 
 | Value | Meaning |
 | - | - |
