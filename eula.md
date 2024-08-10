@@ -50,7 +50,7 @@ You agree not to, and you will not permit others to:
 
 ## Related Agreements
 
-By agreeing to this EULA, you also agree to comply with the terms of [Microsoft Commercial Martketplace Terms of Use](https://learn.microsoft.com/en-nz/legal/marketplace/marketplace-terms) and [Microsoft Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement), and any other agreements incorporated herein by reference. Links to these agreements can be found on the product page within Microsoft AppSource.https://privacy.microsoft.com/en-us/privacystatement
+By agreeing to this EULA, you also agree to comply with the terms of [Microsoft Commercial Martketplace Terms of Use](https://learn.microsoft.com/en-nz/legal/marketplace/marketplace-terms) and [Microsoft Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement), and any other agreements incorporated herein by reference. Links to these agreements can be found on the [Street As Product Page](https://appsource.microsoft.com/en-NZ/product/DynamicsBC/PUBID.bcappslimited1693858041247%7CAID.street-as%7CPAPPID.0a89d807-b47c-487d-97ec-a1c63d794cca) within Microsoft AppSource.
 
 ## Jurisdiction
 
