@@ -30,7 +30,7 @@ page_nav:
 
 # Street As Privacy Statement
 
-BC Apps Limited ("us", "we", or "our") operates the [BC Apps Website](www.bcapps.co) website (the "Site") and the Street As app. This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site and App.
+BC Apps Limited ("us", "we", or "our") operates the [BC Apps Website](https://www.bcapps.co) website (the "Site") and the Street As app. This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site and App.
 
 We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy.
 
