@@ -111,4 +111,4 @@ Finally, in order to make life easier still, we’ve made a lookup feature for t
 
 ![Image showing the New Zealand Suburbs page filtered for a match on "bry".](/screenshots/StreetAsBryLookup.png)
 
-We’ve prepared a starter data file with the list of suburbs which you can download from our website, eventually this will be imported automatically when you install the app. To learn how to set up your suburbs, see [Setup Suburbs Data](/advanced-configuration-options/#setup-suburbs-data) in the Clever Stuff section.
+We’ve prepared a starter data file with the list of suburbs which you can download from our website, eventually this will be imported automatically when you install the app. To learn how to set up your suburbs, see [Setup Suburbs Data](/StreetAs/advanced-configuration-options/#setup-suburbs-data) in the Clever Stuff section.
