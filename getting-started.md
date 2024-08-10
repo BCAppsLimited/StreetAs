@@ -105,7 +105,7 @@ If you wish to purchase more licenses in future for this product, you can do so 
 
 ![Image showing the Business Central Extension Installation page.](/screenshots/gettingstarted/StreetAsGettingStartedInstallWarning.png)
 
-Click the **Install** button to begin the install. A helpful message showing that the installation is in progress will be displayed and that you can continue working will the extension is installed.
+Click the **Install** button to begin the install. A helpful message showing that the installation is in progress will be displayed and that you can continue working while the extension is being installed.
 
 ![Image showing the Business Central extension is installing message page.](/screenshots/gettingstarted/StreetAsGettingStartedInstalling.png)
 
