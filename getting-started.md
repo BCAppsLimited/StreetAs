@@ -41,23 +41,85 @@ The **Country/Region** code that controls how an address is displayed has also m
 
 There are some more advanced features that are covered in the [Clever Stuff](/StreetAs/advanced-configuration-options) section, but for now, let's get you going with the basic stuff.
 
-# Installation and Configuration
+# Installation
 
-## Install
+## Purchase
 
-Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-NZ/product/DynamicsBC/PUBID.bcappslimited1693858041247%7CAID.street-as%7CPAPPID.0a89d807-b47c-487d-97ec-a1c63d794cca).
+If you've already installed the product and assigned licenses, you can skip ahead to the [Configuration](#configuration) section.
 
-I'm going to assume you know how to install an app from AppSource, so rather than document that here, simply search using your web search engine and you'll find plenty of instructions and videos. When you find the app, you'll want to select the Free Trial option and you'll be able to select the plan. There is currently only a standard plan for Street As, so select that and whether you want to be billed monthly or annually after the free trial has ended. Select the number of users you wish to license. You'll be able to purchase more user licenses at a later date and you'll need to assign the licenses to your users.
+Street As is available with a free trial through [Microsoft's AppSource](https://appsource.microsoft.com/en-NZ/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+
+You *can* begin the install procedure from within Business Central, but we recommend you start from the [Street As Product Page](https://appsource.microsoft.com/en-NZ/product/DynamicsBC/PUBID.bcappslimited1693858041247%7CAID.street-as%7CPAPPID.0a89d807-b47c-487d-97ec-a1c63d794cca) on AppSource.
+
+![Image showing Street As Product Page in AppSource.](/screenshots/gettingstarted/StreetAsGettingStartedAppSource.png)
+
+Click the **Buy now** button. If you are not signed in to AppSource, you will be prompted to sign in with your work or school account. Use the same account you use to sign in to Business Central.
+
+If after clicking the Buy now button you are shown the Plans tab and a message that reads *No available plans in the selected country or region. To view available products and plans, change the billing country/region.*, make sure your Billing country and language is set to *New Zealand* and *English - New Zealand*. The options to set these are behind the three dots to the left of your account image.
+
+![Image showing button to launch billing options.](/screenshots/gettingstarted/StreetAsGettingStartedBillingOptions.png)
+
+If everything goes well you'll see the first step of the Checkout page where you must select your Billing country/region.
+
+![Image showing the Checkout page with a request to select your Billing country/region.](/screenshots/gettingstarted/StreetAsGettingStartedCheckoutBillingCountry.png)
+
+Choose *New Zealand*, tick the box saying you understand and click the **Next** button. You should now see the Plan step of the Checkout wizard.
+
+![Image showing the Checkout page with a request to select your Plan.](/screenshots/gettingstarted/StreetAsGettingStartedCheckoutPlan.png)
+
+Click the plan you wish to use (initially there is only one standard plan to choose from) and the click **Next**. You should now see the Price + Billing step of the wizard.
+
+![Image showing the Checkout page with a request to select your Price and Billing settings.](/screenshots/gettingstarted/StreetAsGettingStartedCheckoutPriceBilling.png)
+
+Here you can choose between monthly or annual billing, whether the billing will automatically renew, and the number of users you wish to purchase. You can easily add more users to an existing plan from within the Microsoft 365 Admin Center. Once you have selected your options, click **Next** to continue. You should now see the Payment step of the wizard.
+
+![Image showing the Checkout page with a request to select your Payment options.](/screenshots/gettingstarted/StreetAsGettingStartedCheckoutPayment.png)
+
+Here you will see a summary of how much you will be invoiced and you can select an existing billing account or enter a credit card number. Note that your first month will be free of charge. Click the **Place order** button to continue. You should now see the Complete purchase step.
+
+![Image showing the Checkout page with a Complete purchase summary.](/screenshots/gettingstarted/StreetAsGettingStartedCheckoutCompletePurchase.png)
+
+If all went well, the page will show that your order was processed successfully. To make it easy to get to the next step you can click the **Assign licenses** button. You will be redirected to the Microsoft 365 admin center where you should select the Billing > Licenses option.
 
 ## Assign Licenses
 
-Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) and assign your Street As Standard licenses to your users the same as you would assign any other license to your users.
+If you didn't click the option from the previous step or you want to assign existing licenses, go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/). Note that external users such as delegated admin agents, help desk agents, and admin partners will be assigned a free license automatically.
 
-Note that external users such as delegated admin agents, help desk agents, and admin partners will be assigned a free license automatically.
+![Image showing the Microsoft 365 admin center licenses page.](/screenshots/gettingstarted/StreetAsGettingStartedAssignLicenses.png)
+
+Click the link to open the Street As - Standard license assignment page. You should see the option to assign licenses to a user or to install the product.
+
+![Image showing the Microsoft 365 admin center assign licenses page.](/screenshots/gettingstarted/StreetAsGettingStartedAssignLicensesAssign.png)
+
+Click the **Assign licenses** link to proceed to the next step.
+
+![Image showing the Microsoft 365 admin center assign licenses to users page.](/screenshots/gettingstarted/StreetAsGettingStartedAssignLicensesAssignUsers.png)
+
+Type the name of the user you want to assign the license to in the search box and with the correct user selected, click the **Assign** button to compete the process. You will be returned to the previous page where you can will see which users have a license assigned. 
+
+![Image showing the Microsoft 365 admin center assign licenses page after the licenses have been assigned.](/screenshots/gettingstarted/StreetAsGettingStartedAssignLicensesAfterAssign.png)
+
+If you wish to purchase more licenses in future for this product, you can do so from within the Microsoft 365 admin center page without needing to visit AppSource. You can trigger the install of the app by clicking the **Install this product** link. The system will sign you in to Business Central and take you to the Extension Installation page.
+
+## Install
+
+![Image showing the Business Central Extension Installation page.](/screenshots/gettingstarted/StreetAsGettingStartedInstallWarning.png)
+
+Click the **Install** button to begin the install. A helpful message showing that the installation is in progress will be displayed and that you can continue working will the extension is installed.
+
+![Image showing the Business Central extension is installing message page.](/screenshots/gettingstarted/StreetAsGettingStartedInstalling.png)
+
+After a short while (assuming you didn't go off and do something else), the system will show you a message telling you that the app is installed.
+
+![Image showing the Business Central extension app is installed message page.](/screenshots/gettingstarted/StreetAsGettingStartedAppIsInstalled.png)
+
+Congratulations! You have successfully installed the app. Let's go ahead and set it up.
+
+# Configuration
 
 ## Grant Permissions
 
-Now that the licenses have been assigned to your users, you must assign a permission set so that the users have access to the objects they need to use. There are only two permission sets in Street As:
+Now that the product is installed an licenses have been assigned to your users, you must assign a permission set so that the users have access to the objects they need to use. There are only two permission sets in Street As:
 
 - **BC_STR_USR** - A regular user of Street As. This user cannot change the settings on the Street As Setup table.
 - **BC_STR_ADM** - An administrator of Street As. This user has all the rights of a regular user but also has write permissions to the Street As Setup table.
