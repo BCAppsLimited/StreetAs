@@ -119,7 +119,7 @@ Congratulations! You have successfully installed the app. Let's go ahead and set
 
 ## Grant Permissions
 
-Now that the product is installed an licenses have been assigned to your users, you must assign a permission set so that the users have access to the objects they need to use. There are only two permission sets in Street As:
+Now that the product is installed and licenses have been assigned to your users, you must assign a permission set so that the users have access to the objects they need to use. There are only two permission sets in Street As:
 
 - **BC_STR_USR** - A regular user of Street As. This user cannot change the settings on the Street As Setup table.
 - **BC_STR_ADM** - An administrator of Street As. This user has all the rights of a regular user but also has write permissions to the Street As Setup table.
