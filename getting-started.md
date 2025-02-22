@@ -95,7 +95,7 @@ Click the **Assign licenses** link to proceed to the next step.
 
 ![Image showing the Microsoft 365 admin center assign licenses to users page.](/screenshots/gettingstarted/StreetAsGettingStartedAssignLicensesAssignUsers.png)
 
-Type the name of the user you want to assign the license to in the search box and with the correct user selected, click the **Assign** button to compete the process. You will be returned to the previous page where you can will see which users have a license assigned. 
+Type the name of the user you want to assign the license to in the search box and with the correct user selected, click the **Assign** button to compete the process. You will be returned to the previous page where you will see which users have a license assigned. 
 
 ![Image showing the Microsoft 365 admin center assign licenses page after the licenses have been assigned.](/screenshots/gettingstarted/StreetAsGettingStartedAssignLicensesAfterAssign.png)
 
